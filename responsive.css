@@ -4,6 +4,7 @@
     }
 }
 
+/* 337 */
 
 @media (max-width:1629px) {
 
@@ -75,7 +76,7 @@
     }
 
     .text-two {
-        font-size: 68px;
+        font-size: 4.25rem;
     }
 
 
@@ -142,19 +143,19 @@
     }
 
     .text-one {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 
     .text-two {
-        font-size: 65px;
+        font-size: 4.06rem;
     }
 
     .text-three {
-        font-size: 38px;
+        font-size: 2.3rem;
     }
 
     .text-four {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
 
@@ -163,16 +164,16 @@
 @media (max-width:1267px) {
 
     .text-two {
-        font-size: 60px;
+        font-size: 3.5rem;
         padding: 0px;
     }
 
     .text-three {
-        font-size: 30px;
+        font-size: 1.87rem;
     }
 
     .text-four {
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 
     .home-right {
@@ -224,18 +225,18 @@
     }
 
     .bottom-left-three-left {
-        font-size: 70px;
+        font-size: 4.37rem;
 
     }
 
     .bottom-left-three-right {
-        font-size: 15px;
+        font-size: 0.9rem;
         padding-bottom: 2px;
     }
 
     .services-bottom-card-one {
         height: 55px;
-        margin-left: 42%;
+        /* margin-left: 42%; */
     }
 }
 
@@ -325,10 +326,20 @@
         height: 650px;
     }
 
+    .skill-bottom-left-one {
+        font-size: 1.5rem;
+    }
+
     .services-bottom-card {
         padding: 25px 10px;
     }
 
+}
+
+@media (max-width:980px) {
+    .about-bottom-right-two {
+        font-size: .64rem;
+    }
 }
 
 @media (max-width:870px) {
@@ -357,6 +368,10 @@
         padding: 0px 10px;
     }
 
+    .about-bottom-right-two {
+        font-size: ;
+    }
+
     .skill-bottom-left-three {
         width: 24vw;
     }
@@ -381,7 +396,7 @@
     }
 
     .text-one {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 
     .text-two {
@@ -389,11 +404,11 @@
     }
 
     .text-three {
-        font-size: 22px;
+        font-size: 1.37rem;
     }
 
     .text-four {
-        font-size: 13px;
+        font-size: .81rem;
     }
 
     .home-right img {
@@ -419,7 +434,7 @@
     }
 
     .about-bottom-right-two {
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
 
     .about-bottom-right-three {
@@ -427,6 +442,17 @@
     }
 
 }
+
+@media (max-width:824px) {
+    .home-left {
+        flex-basis: 70%;
+    } 
+
+
+
+
+}
+
 
 @media (max-width:806px) {
 
@@ -440,19 +466,19 @@
     }
 
     .text-one {
-        font-size: 17px;
+        font-size: 1.06rem;
     }
 
     .text-two {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .text-three {
-        font-size: 22px;
+        font-size: 1.37rem;
     }
 
     .text-four {
-        font-size: 13px;
+        font-size: .81rem;
     }
 
     .home {
@@ -482,7 +508,7 @@
     }
 
     .about-bottom-right-two {
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
 
     .about-bottom-right-three {
@@ -490,20 +516,52 @@
     }
 
     .skill-section {
-        height: 600px;
+        height: fit-content;
+        padding-bottom: 30px;
     }
 
     .contact-section {
         height: 370px;
     }
 
+    .skill-bottom-left-one {
+        font-size: 1.25rem;
+    }
+
+    .skill-bottom-left-two {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media (max-width:772px) {
+
+    .services-bottom-card {
+
+        height: fit-content;
+
+    }
+
+    .services-bottom-card-one {
+        height: 55px;
+    }
+
+}
+
+@media (max-width:744px) {
+
+    .skill-section {
+        height: fit-content;
+        padding-bottom: 30px;
+    }
 
 }
 
 @media (max-width:742px) {
 
     .navbar-middle li a {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .text-two {
@@ -512,7 +570,7 @@
     }
 
     .text-three {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
 
@@ -522,13 +580,32 @@
 
 @media (max-width:726px) {
 
+    .about-bottom {
+
+    }
+
+    .about-bottom-right-two {
+
+    } 
+
+
     .skill-bottom-right-top {
         font-size: 1.2rem;
     }
 
     .skill-bottom-right-bottom {
-        font-size: 2.6em;
+        font-size: 2.6rem;
     }
+
+  
+}
+
+@media (max-width:720px) {
+
+
+
+
+
 }
 
 @media (max-width:706px) {
@@ -546,7 +623,7 @@
     }
 
     .navbar-logo {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 
     .navbar-middle {
@@ -564,6 +641,14 @@
     .navbar-middle li a {
         font-size: 14px;
     }
+
+    /* .skill-section {
+ 
+
+        padding-bottom: 20px;
+        height: fit-content;
+
+    } */
 
     .skill-bottom-left-three {
         width: 28vw;
@@ -586,7 +671,7 @@
 
     .services-bottom-card {
         width: 46%;
-        height: 225px;
+        height: fit-content;
         margin: 20px 02%;
     }
 
@@ -630,6 +715,49 @@
         margin-top: 5px;
     }
 
+
+}
+
+
+@media (max-width:662px) {
+
+    .skill-section {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .skill-bottom {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+
+    }
+
+
+    .skill-bottom-left-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    .skill-bottom-right-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 25px 0px 20px;
+    }
+
+    .skill-bottom-left-one {
+        font-size: 1.5rem;
+
+    }
+
+    /* .skill-bottom-left-two {
+        font-size: .8rem;
+    }  */
 
 }
 
@@ -719,6 +847,17 @@
     }
 
 
+
+
+}
+
+
+@media (max-width:600px) {
+    .services-bottom-card {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width:588px) {
@@ -728,7 +867,7 @@
     }
 
     .skill-bottom-left-two {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     .bottom-left-three-left {
@@ -770,7 +909,7 @@
 
     .home {
         position: relative;
-        height: 450px;
+        height: 447px;
 
     }
 
@@ -819,7 +958,7 @@
 
 
     .services-bottom-card {
-        height: 270px;
+        height: fit-content;
     }
 
     .footer div {
@@ -827,6 +966,12 @@
     }
 
 
+}
+
+
+@media (max-width:529px) {
+
+  
 }
 
 @media (max-width:516px) {
@@ -862,7 +1007,7 @@
     }
 
     .home-right img {
-        margin-top: 63px;
+        /* margin-top: 63px; */
         width: 280px;
         height: 360px;
     }
@@ -870,6 +1015,7 @@
     .home-left {
         position: relative;
         flex-basis: 90%;
+
     }
 
     .home-content-text {
@@ -942,7 +1088,7 @@
     }
 
     .skill-bottom-left-two {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     .services-bottom-card {
@@ -1064,7 +1210,6 @@
 
 }
 
-@media (max-width:3px) {}
 
 @media (max-width:426px) {
 
@@ -1200,11 +1345,13 @@
         display: flex;
         margin: 0px;
         flex-direction: column;
+        /* background-color: green; */
     }
 
     .about-bottom-right {
         display: flex;
         flex-direction: column;
+
     }
 
     .about-bottom-right-one {
@@ -1214,9 +1361,10 @@
     }
 
     .about-bottom-right-two {
-        font-size: 0.9em;
-        padding: 0px 8px;
+        font-size: .92rem;
+        padding: 0px 0px;
         line-height: 20px;
+        /* background-color: gainsboro; */
     }
 
     .about-bottom-right-three {
@@ -1228,7 +1376,7 @@
 
     .skill-section {
         width: 100%;
-        height: 636px;
+        height: fit-content;
         padding-top: 30px;
     }
 
@@ -1247,7 +1395,7 @@
     }
 
     .skill-top {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin: 20px 0px;
         height: 35px;
         width: 130px;
@@ -1274,7 +1422,7 @@
     }
 
     .bottom-left-three-left {
-        font-size: 50px;
+        font-size: 3.1rem;
         width: 35%;
         padding: 10px 0px;
 
@@ -1282,13 +1430,13 @@
 
     .bottom-left-three-right {
         width: 100%;
-        font-size: 11px;
+        font-size: 0.68rem;
         padding: 30px 0px 0px 0px;
     }
 
     .skill-bottom-right-container {
         width: 100%;
-        height: 250px;
+        height: 200px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1298,7 +1446,7 @@
 
     .skill-bottom-right {
         width: 50%;
-        height: 120px;
+        height: 110px;
         margin: 0px;
         padding: 0px 2vw;
     }
@@ -1327,7 +1475,7 @@
     }
 
     .service-heading {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin: 0px 0px 20px;
         height: 35px;
         width: 150px;
@@ -1343,7 +1491,7 @@
 
     .services-bottom-card {
         width: 90%;
-        height: 180px;
+        height: 185px;
         margin: 20px 5%;
         background-color: solid white;
         border: 2px solid rgb(236, 232, 232);
@@ -1360,17 +1508,17 @@
     }
 
     .services-bottom-card-one i {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 
     .services-bottom-card-two {
-        font-size: 27px;
+        font-size: 1.68rem;
         padding: 8px 0px 0px;
     }
 
     .services-bottom-card-three {
-        font-size: 14px;
-        padding: 8px 0px;
+        font-size: 0.9rem;
+        padding: 8px 0px 10px;
     }
 
     .contact-section {
@@ -1380,7 +1528,7 @@
     }
 
     .Contact-heading {
-        font-size: 20px;
+        font-size: 1.25rem;
         padding-right: 5px;
         height: 35px;
         width: 150px;
@@ -1408,7 +1556,7 @@
     }
 
     .contact-bottom a {
-        font-size: 22px;
+        font-size: 1.3rem;
     }
 
     .footer {

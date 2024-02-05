@@ -42,7 +42,7 @@
 
 .navbar-logo {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 2.1rem;
     color: #1653fa;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .navbar-middle li a {
-    font-size: 18px;
+    font-size: 1.08rem;
     font-weight: 500;
     color: #0E2431;
     padding: 6px 0;
@@ -111,7 +111,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: 70%;
     height: 100%;
     margin-top: 83px;
     background-color: transparent;
@@ -131,24 +131,24 @@
 }
 
 .text-one {
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 200;
 }
 
 .text-two {
-    font-size: 75px;
+    font-size: 4.6rem;
     font-weight: 500;
 }
 
 .text-three {
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 400;
     padding-top: 5px;
     color: #1653fa;
 }
 
 .text-four {
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 300;
     padding: 5px 3px;
 }
@@ -197,6 +197,7 @@
 .about-me-section {
     display: flex;
     width: 100%;
+    position: relative;
     flex-direction: column;
     height:fit-content;
     align-items: center;
@@ -210,10 +211,8 @@
     height: 40px;
     color: #0E2431;
     text-align: center;
-    /* padding: 0px 0px 5px 13px; */
     font-size: 27px;
     font-weight: 600;
-    /* margin-left: 45%; */
     font-family: sans-serif;
     border-bottom: 3px solid #1653fa;
 
@@ -222,25 +221,25 @@
 .about-bottom {
     width: 90%;
     display: flex;
-    /* padding-left: 10%; */
 }
 
 .about-bottom-right {
     display: flex;
-    /* background-color: green; */
     flex-direction: column;
     flex-basis: 100%;
+    position: relative;
 }
 
 .about-bottom-right-one {
-    font-size: 1.75em;
+    font-size: 1.8rem;
     font-weight: 500;
     font-family: sans-serif;
     padding: 35px 0px 10px;
 }
 
 .about-bottom-right-two {
-    font-size: 1.05em;
+    position: relative;
+    font-size: 1.05rem;
     font-weight: 300;
     font-family: sans-serif;
     line-height: 27px;
@@ -253,7 +252,7 @@
     border: 2px solid #1653fa;
     border-radius: 6px;
     background-color: #1653fa;
-    font-size: 26px;
+    font-size: 1.6rem;
     font-weight: 400;
     font-family: sans-serif;
     text-align: center;
@@ -316,14 +315,14 @@
 }
 
 .skill-bottom-left-one {
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 500;
     padding-top: 20px;
     font-family: sans-serif;
 }
 
 .skill-bottom-left-two {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
     padding-top: 15px;
     font-family: sans-serif;
@@ -338,13 +337,13 @@
 
 .bottom-left-three-left {
     width: 40%;
-    font-size: 80px;
+    font-size: 5rem;
     font-family: sans-serif;
 }
 
 .bottom-left-three-right {
     width: 60%;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
     font-family: sans-serif;
     padding: 35px 0px 0px 5px;
@@ -363,11 +362,11 @@
 }
 
 .skill-bottom-right-top {
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 .skill-bottom-right-bottom {
-    font-size: 60px;
+    font-size: 3.7rem;
     padding: 15px 0px 10px 0px;
 }
 
@@ -387,7 +386,7 @@
     color: #0E2431;
     text-align: center;
     padding: 0px 0px 5px 13px;
-    font-size: 27px;
+    font-size: 1.68rem;
     font-weight: 600;
     font-family: sans-serif;
     border-bottom: 3px solid #1653fa;
@@ -430,24 +429,24 @@
 }
 
 .services-bottom-card-one i {
-    font-size: 30px;
+    font-size: 1.87rem;
     color: #ffffff;
 }
 
 .services-bottom-card-one .second  {
-    width: 24px;
+    width: 1.5rem;
     fill: #ffffff;
 }
 
 .services-bottom-card-two {
-    font-size: 30px;
+    font-size: 1.87rem;
     padding: 13px 0px 0px;
     transition: 0.1s;
 }
 
 
 .services-bottom-card-three {
-    font-size: 17px;
+    font-size: 1.06rem;
     font-weight: 400;
     font-family: sans-serif;
     padding: 12px 0px;
@@ -490,7 +489,7 @@
 .Contact-heading { 
     height: 40px;
     color: #0E2431;
-    font-size: 27px;
+    font-size: 1.68rem;
     font-weight: 600;
     font-family: sans-serif;
     border-bottom: 3px solid #1653fa;
@@ -500,7 +499,7 @@
 .contact-top {
     width: 250px;
     text-align: center;
-    font-size: 26px;
+    font-size: 1.62rem;
     font-family: sans-serif;
     font-weight: 500;
     padding: 30px 0px 20px;
@@ -508,7 +507,7 @@
 
 .contact-middle {
     width: 60%;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
     text-align: center;
 }
@@ -528,7 +527,7 @@
 
 .contact-bottom a {
     color: white;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 500;
     font-family: sans-serif;
 }
@@ -545,7 +544,7 @@
 .footer {
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 160px;
     justify-content: center;
     align-items: center;
     background-color: #1653fa;
@@ -553,7 +552,7 @@
 
 .footer a {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 1.37rem;
     font-weight: 400;
     font-family: sans-serif;
     /* background-color: green; */
