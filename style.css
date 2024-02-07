@@ -104,7 +104,7 @@
     width: 100%;
     overflow: hidden;
     font-family: 'Ubuntu', sans-serif;
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
 
 .home-left {
@@ -115,7 +115,7 @@
     height: 100%;
     margin-top: 83px;
     background-color: transparent;
-   
+
 }
 
 .home-content-text {
@@ -199,7 +199,7 @@
     width: 100%;
     position: relative;
     flex-direction: column;
-    height:fit-content;
+    height: fit-content;
     align-items: center;
     padding: 75px 0px 40px;
     background-color: rgb(252, 240, 224);
@@ -280,12 +280,12 @@
     width: 100%;
     height: 550px;
     padding-top: 75px;
-    background-color:rgb(187, 232, 252);
+    background-color: rgb(187, 232, 252);
 
 }
 
 .skill-top {
-    
+
     height: 40px;
     color: #0E2431;
     font-size: 27px;
@@ -404,75 +404,61 @@
 
 .services-bottom-card {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 30%;
-    height: fit-content;
-    margin: 20px 0px;
-    background-color: #ffffff;
+    height: 240px;
+    margin: 20px 0px 10px;
     border: 2px solid rgb(236, 232, 232);
     border-radius: 15px;
     font-family: sans-serif;
     text-align: center;
-    padding: 20px 0px 25px;
-
+    position: relative;
+    overflow: hidden;
+    color:#ffffff;
+    position: relative;
 }
 
-.services-bottom-card-one {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    background-color: #1653fa;
-}
-
-.services-bottom-card-one i {
-    font-size: 1.87rem;
-    color: #ffffff;
-}
-
-.services-bottom-card-one .second  {
-    width: 1.5rem;
-    fill: #ffffff;
+.services-bottom-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .services-bottom-card-two {
-    font-size: 1.87rem;
-    padding: 13px 0px 0px;
-    transition: 0.1s;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0px 0px 10px;
 }
 
-
 .services-bottom-card-three {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
     font-size: 1.06rem;
     font-weight: 400;
     font-family: sans-serif;
-    padding: 12px 0px;
-    transition: 0.1s;
+    padding: 2rem 1rem 0rem;
+    background-color:rgba(25, 60, 155, 0.4);
+    backdrop-filter: blur(5px);
+    transition: .5s;
 }
 
-.services-bottom-card:hover {
-    border-color: #7296fa;
-    background-color: #1653fa;
-    color: #ffffff;
+.services-bottom-card-para {
+    padding: 10px 0px 10px;
+    font-weight: 500;
 }
 
-.services-bottom-card:hover .services-bottom-card-one {
-    background-color: #ffffff;
+.services-bottom-card-three button {
+    margin: 1rem .5rem;
+    font-size: 1.3rem;
 }
 
-.services-bottom-card:hover div i {
-    background-color: #ffffff;
-    color: #1653fa;
-    /* fill:#1653fa */
-}
-
-.services-bottom-card:hover svg{
-    background-color: #ffffff;
-    /* color: #1653fa; */
-    fill:#1653fa
+.services-bottom-card:hover .services-bottom-card-three {
+  right: 0;
 }
 
 .contact-section {
@@ -482,11 +468,11 @@
     width: 100%;
     height: 315px;
     padding-top: 35px;
-    background-color:rgb(187, 232, 252);
+    background-color: rgb(187, 232, 252);
 
 }
 
-.Contact-heading { 
+.Contact-heading {
     height: 40px;
     color: #0E2431;
     font-size: 1.68rem;
@@ -514,7 +500,7 @@
 
 .contact-bottom {
     display: flex;
-    width:160px;
+    width: 160px;
     height: 50px;
     align-items: center;
     justify-content: center;
@@ -543,16 +529,17 @@
 
 .footer {
     display: flex;
+    flex-direction: row;
+    position: relative;
     width: 100%;
-    height: 160px;
     justify-content: center;
-    align-items: center;
     background-color: #1653fa;
 }
 
 .footer a {
     color: #ffffff;
     font-size: 1.37rem;
+    padding: 1.1rem;
     font-weight: 400;
     font-family: sans-serif;
     /* background-color: green; */

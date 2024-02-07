@@ -33,10 +33,7 @@
         height: 720px;
     }
 
-    .services-bottom-card {
-        height: 230px;
-        padding: 20px 8px;
-    }
+    
 
 
 }
@@ -330,15 +327,11 @@
         font-size: 1.5rem;
     }
 
-    .services-bottom-card {
-        padding: 25px 10px;
-    }
-
 }
 
 @media (max-width:980px) {
     .about-bottom-right-two {
-        font-size: .64rem;
+        font-size: 1em;
     }
 }
 
@@ -366,10 +359,6 @@
 
     .about-bottom-right {
         padding: 0px 10px;
-    }
-
-    .about-bottom-right-two {
-        font-size: ;
     }
 
     .skill-bottom-left-three {
@@ -540,11 +529,10 @@
     .services-bottom-card {
 
         height: fit-content;
-
     }
 
-    .services-bottom-card-one {
-        height: 55px;
+    .services-bottom-card-three {
+        padding-bottom: 15px;
     }
 
 }
@@ -580,15 +568,6 @@
 
 @media (max-width:726px) {
 
-    .about-bottom {
-
-    }
-
-    .about-bottom-right-two {
-
-    } 
-
-
     .skill-bottom-right-top {
         font-size: 1.2rem;
     }
@@ -596,15 +575,6 @@
     .skill-bottom-right-bottom {
         font-size: 2.6rem;
     }
-
-  
-}
-
-@media (max-width:720px) {
-
-
-
-
 
 }
 
@@ -642,13 +612,6 @@
         font-size: 14px;
     }
 
-    /* .skill-section {
- 
-
-        padding-bottom: 20px;
-        height: fit-content;
-
-    } */
 
     .skill-bottom-left-three {
         width: 28vw;
@@ -674,16 +637,7 @@
         height: fit-content;
         margin: 20px 02%;
     }
-
-    .services-bottom-card-one {
-        width: 48px;
-        height: 48px;
-    }
-
-    .services-bottom-card-one i {
-        font-size: 23px;
-    }
-
+    
     .services-bottom-card-two {
         font-size: 25px;
     }
