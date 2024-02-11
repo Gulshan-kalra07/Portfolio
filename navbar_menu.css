@@ -1,0 +1,40 @@
+@media (max-width:450px) {
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-middle {
+        overflow-x: none;
+        position: absolute;
+        width: 110%;
+        height: 250px;
+        display:none;
+        margin: 310px 0px 0px -12px;
+        flex-direction: column;
+        background-color:rgb(187, 232, 252) ; 
+    }
+
+    .navbar-middle li {
+        display: flex;
+        width: 100%;
+        position: relative;
+        justify-content: center;    
+       
+    }
+
+    .hide_link_small {
+        display: none;
+    }
+
+
+    .show {
+        display: flex;
+    }
+
+    .hide {
+        display: none;
+    }
+
+
+}

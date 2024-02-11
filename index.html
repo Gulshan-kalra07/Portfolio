@@ -7,32 +7,53 @@
     <title>My-Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="navbar_menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
   </head>
-  <!-- oncontextmenu="return false" -->
+  <body oncontextmenu="return false">
+  oncontextmenu="return false"
   <nav class="navbar-section">
     <div class="navbar">
       <div class="navbar-left">
         <a class="navbar-logo">Portfolio.</a>
       </div>
-      <ul class="navbar-middle">
-        <li><a href="#Home">Home</a></li>
+      <ul class="navbar-middle" id="navbar-middle" id="navbarmiddle_link">
+        <li><a href="#Home" id="mybtn">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#Skills">Skills</a></li>
         <li><a href="#Services">Projects</a></li>
         <li><a href="#Contact">Contact</a></li>
+        <li class="hide_link_large">
+          <a href="https://github.com/Gulshan-kalra07" target="_blank">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
+            <i class="ri-mail-send-fill"></i>
+          </a>
+          <a href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+        </li>
       </ul>
       <div class="navbar-right">
-        <a href="https://github.com/Gulshan-kalra07" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="https://github.com/G}ulshan-kalra07" target="_blank">
+          <i class="ri-github-fill hide_link_small"></i>
+        </a>
         <a href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
-          <i class="ri-mail-send-fill"></i></a>
-        <a href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank"><i
-            class="ri-whatsapp-line"></i></a>
-        <a href="#"><i class="ri-menu-fill" id="menubar-icon"></i></a>
+          <i class="ri-mail-send-fill hide_link_small"></i>
+        </a>
+        <a href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
+          <i
+            class="ri-whatsapp-line hide_link_small"></i>
+          </a>
+        <a href="#" id="menubtn">
+          <i class="ri-menu-fill" id="menubar-icon"></i>
+        </a>
       </div>
     </div>
   </nav>
@@ -61,9 +82,14 @@
           user interfaces. My aspiration is to evolve into a proficient full-stack developer, adept at both frontend and
           backend technologies.
         </p>
-        <button class="about-bottom-right-three scale cursor">
-          <a href="image/UI Design.pdf" download="Gulshan_kalra_CV">Download CV</a>
-        </button>
+        <div class="Cv-box">
+          <button class="about-bottom-right-three scale cursor">
+            <a href="image/UI Design.pdf" target="_blank">Live Resume</a>
+          </button>
+          <button class="about-bottom-right-three scale cursor">
+            <a href="image/UI Design.pdf" download="Gulshan_kalra_CV">Download CV</a>
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -107,89 +133,97 @@
     <div class="services-bottom-card-container">
       <div class="services-bottom-card scale cursor">
         <img src="image/pro_portfolio_bg.jpg" alt="">
-        <div class="services-bottom-card-three" >
+        <div class="services-bottom-card-three">
           <p class="services-bottom-card-two hover-effect">My Portfolio</p>
           <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
             repudiandae amet animi magnam, iusto</p>
-          <div class="hover-effect"> 
-            <button class="button scale cursor"><a href="">Get Code</a></button>
-            <button class="button scale cursor"><a href="">Run Live</a></button>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href=""
+                target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href=""
+                target="_blank">Run Live</a></button>
           </div>
         </div>
       </div>
       <div class="services-bottom-card scale cursor">
-      <img src="image/pro_vscode_bg.jpeg" alt="">
+        <img src="image/pro_vscode_bg.jpeg" alt="">
         <div class="services-bottom-card-three">
           <p class="services-bottom-card-two hover-effect">Vscode</p>
           <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
             repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect"> 
-              <button class="button scale cursor"><a href="">Get Code</a></button>
-              <button class="button scale cursor"><a href="">Run Live</a></button>
-            </div>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href=""
+                target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href=""
+                target="_blank">Run Live</a></button>
+          </div>
         </div>
       </div>
       <div class="services-bottom-card scale cursor">
         <img src="image/pro_amazon_bg.jpeg" alt="">
-        <div class="services-bottom-card-three" >
+        <div class="services-bottom-card-three">
           <p class="services-bottom-card-two hover-effect">Amazon</p>
           <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
             repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect"> 
-              <button class="button scale cursor"><a href="">Get Code</a></button>
-              <button class="button scale cursor"><a href="">Run Live</a></button>
-            </div>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
+          </div>
         </div>
       </div>
       <div class="services-bottom-card scale cursor">
         <img src="image/pro_apple_bg.jpeg" alt="">
-        <div class="services-bottom-card-three" >
+        <div class="services-bottom-card-three">
           <p class="services-bottom-card-two hover-effect">Apple</p>
           <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
             repudiandae amet animi magnam, iusto</p>
-          <div class="hover-effect"> 
-            <button class="button scale cursor"><a href="">Get Code</a></button>
-            <button class="button scale cursor"><a href="">Run Live</a></button>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
           </div>
         </div>
       </div>
       <div class="services-bottom-card scale cursor">
         <img src="image/pro_udemy_bg.jpg" alt="">
-        <div class="services-bottom-card-three" >
+        <div class="services-bottom-card-three">
           <p class="services-bottom-card-two hover-effect">Udemy</p>
           <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
             repudiandae amet animi magnam, iusto</p>
-          <div class="hover-effect"> 
-            <button class="button scale cursor"><a href="">Get Code</a></button>
-            <button class="button scale cursor"><a href="">Run Live</a></button>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href=""
+                target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href=""
+                target="_blank">Run Live</a></button>
           </div>
         </div>
       </div>
       <div class="services-bottom-card scale cursor">
         <img src="image/pro_soon_bg.jpeg" alt="">
-        <div class="services-bottom-card-three" >
+        <div class="services-bottom-card-three">
           <p class="services-bottom-card-two hover-effect">soon</p>
           <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
             repudiandae amet animi magnam, iusto</p>
-          <div class="hover-effect"> 
-            <button class="button scale cursor"><a href="">Get Code</a></button>
-            <button class="button scale cursor"><a href="">Run Live</a></button>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
           </div>
         </div>
       </div>
-         </div>
-   </section>
-    <section class="contact-section" id="Contact">
-      <p class="top-heading Contact-heading">Contact Me</p>
-      <p class="contact-top">Have Any Project?</p>
-      <p class="contact-middle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti
-        dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur
-        voluptatibus alias repellendus nobis eligendi.</p>
-      <button class="contact-bottom scale cursor"><a href="SMS:+91720-650-4056">Let's Chat</a></button>
-    </section>
-    <footer class="footer">
-      <a>Created By Gulshan kalra | © 2021 All Rights Reserved</a>
-    </footer>
-    </body>
+    </div>
+  </section>
+  <section class="contact-section" id="Contact">
+    <p class="top-heading Contact-heading">Contact Me</p>
+    <p class="contact-top">Have Any Project?</p>
+    <p class="contact-middle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti
+      dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur
+      voluptatibus alias repellendus nobis eligendi.</p>
+    <button class="contact-bottom scale cursor"><a href="SMS:+91720-650-4056" target="_blank">Let's Chat</a></button>
+  </section>
+  <footer class="footer">
+    <a>Created By Gulshan kalra | © 2021 All Rights Reserved</a>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
 
 </html>

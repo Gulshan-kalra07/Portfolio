@@ -10,6 +10,7 @@
     transition: 0.3s all ease;
 }
 
+
 .scale:hover {
     box-shadow: 8px 4px 15px #1653fa;
     scale: calc(1.04);
@@ -88,14 +89,16 @@
     margin: 11px 3px;
 }
 
+.hide_link_large {
+    display: none;
+}
+
 #menubar-icon {
     display: none;
     font-size: 23px;
     padding-left: 15px;
     color: #1653fa;
 }
-
-
 
 .home {
     display: flex;
@@ -242,7 +245,6 @@
     font-size: 1.05rem;
     font-weight: 300;
     font-family: sans-serif;
-    line-height: 27px;
     text-align: justify;
 }
 
@@ -257,7 +259,7 @@
     font-family: sans-serif;
     text-align: center;
     padding: 9px 0px;
-    margin: 15px 0px;
+    margin: 15px 10px;
 }
 
 .about-bottom-right-three a {
@@ -271,6 +273,11 @@
 
 .about-bottom-right-three:hover a {
     color: #4070f4;
+}
+
+.Cv-box {
+    display: flex;
+    flex-direction: row;
 }
 
 .skill-section {
@@ -322,11 +329,10 @@
 }
 
 .skill-bottom-left-two {
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1.05rem;
+    font-weight: 300;
     padding-top: 15px;
     font-family: sans-serif;
-    line-height: 23px;
     text-align: justify;
 }
 
@@ -407,7 +413,7 @@
     width: 30%;
     height: 240px;
     margin: 20px 0px 10px;
-    border: 2px solid rgb(236, 232, 232);
+    border:none;
     border-radius: 15px;
     font-family: sans-serif;
     text-align: center;
@@ -436,8 +442,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    top: 0;
-    right: -100%;
+    bottom: -100%;
     font-size: 1.06rem;
     font-weight: 400;
     font-family: sans-serif;
@@ -458,7 +463,7 @@
 }
 
 .services-bottom-card:hover .services-bottom-card-three {
-  right: 0;
+  bottom: 0;
 }
 
 .contact-section {

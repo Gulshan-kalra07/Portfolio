@@ -4,8 +4,6 @@
     }
 }
 
-/* 337 */
-
 @media (max-width:1629px) {
 
 
@@ -33,7 +31,7 @@
         height: 720px;
     }
 
-    
+
 
 
 }
@@ -237,8 +235,6 @@
     }
 }
 
-
-
 @media (max-width:1173px) {
 
     .home-left {
@@ -331,7 +327,7 @@
 
 @media (max-width:980px) {
     .about-bottom-right-two {
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -423,7 +419,7 @@
     }
 
     .about-bottom-right-two {
-        padding-left: 1.25rem;
+        font-size: 1rem;
     }
 
     .about-bottom-right-three {
@@ -435,13 +431,12 @@
 @media (max-width:824px) {
     .home-left {
         flex-basis: 70%;
-    } 
+    }
 
 
 
 
 }
-
 
 @media (max-width:806px) {
 
@@ -497,11 +492,21 @@
     }
 
     .about-bottom-right-two {
-        padding-left: 1.25rem;
+        /* padding-left: 1.25rem; */
     }
 
     .about-bottom-right-three {
-        margin-left: 20px;
+        font-size: 1.3rem;
+        height: 100%;
+
+    }
+
+    .Cv-box {
+        margin: 0px 0px;
+    }
+
+    .Cv-box .button {
+        margin-right: 20px;
     }
 
     .skill-section {
@@ -524,15 +529,36 @@
 
 }
 
-@media (max-width:772px) {
+@media (max-width:777px) {
 
     .services-bottom-card {
-
-        height: fit-content;
+        height: 240px;
     }
 
     .services-bottom-card-three {
-        padding-bottom: 15px;
+        padding-bottom: 5px;
+        font-size: 1rem;
+        height: 100%;
+    }
+
+}
+
+@media (max-width:753px) {
+
+    .services-bottom-card {
+        height: 240px;
+    }
+
+    .services-bottom-card-three {
+        padding-bottom: 5px;
+        font-size: 1rem;
+        height: 100%;
+    }
+
+    .services-bottom-card-three .button {
+        width: 110px;
+        font-size: 1rem;
+        font-weight: 600;
     }
 
 }
@@ -575,6 +601,33 @@
     .skill-bottom-right-bottom {
         font-size: 2.6rem;
     }
+
+    .services-section {
+        height: fit-content;
+    }
+
+    .services-bottom-card-container {
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        padding: 0px;
+
+    }
+
+    .services-bottom-card {
+        width: 100%;
+        height: 250px;
+        margin: 20px 0px;
+    }
+
+    .hover-effect .button {
+        width: 200px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+
+
+
 
 }
 
@@ -632,12 +685,8 @@
         padding-left: 0%;
     }
 
-    .services-bottom-card {
-        width: 46%;
-        height: fit-content;
-        margin: 20px 02%;
-    }
-    
+
+
     .services-bottom-card-two {
         font-size: 25px;
     }
@@ -648,7 +697,6 @@
 
 
 }
-
 
 @media (max-width:687px) {
 
@@ -662,16 +710,11 @@
     }
 
     .services-bottom-card {
-        height: fit-content;
-    }
-
-    .services-bottom-card-three {
-        margin-top: 5px;
+        height: 240px;
     }
 
 
 }
-
 
 @media (max-width:662px) {
 
@@ -708,10 +751,6 @@
         font-size: 1.5rem;
 
     }
-
-    /* .skill-bottom-left-two {
-        font-size: .8rem;
-    }  */
 
 }
 
@@ -765,10 +804,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 160px;
         height: 40px;
         font-size: 19px;
     }
+
+    .services-bottom-card {
+        height: 230px;
+    }
+
+    .project_button_box {
+        display: flex;
+    } 
 
     .contact-bottom {
         position: relative;
@@ -803,15 +849,6 @@
 
 
 
-}
-
-
-@media (max-width:600px) {
-    .services-bottom-card {
-        width: 100%;
-        height: fit-content;
-        padding-bottom: 30px;
-    }
 }
 
 @media (max-width:588px) {
@@ -912,7 +949,12 @@
 
 
     .services-bottom-card {
-        height: fit-content;
+        height:220px;
+    }
+
+    .hover-effect .button {
+        width: 150px;
+        font-size: 1.1rem;
     }
 
     .footer div {
@@ -920,12 +962,6 @@
     }
 
 
-}
-
-
-@media (max-width:529px) {
-
-  
 }
 
 @media (max-width:516px) {
@@ -936,7 +972,6 @@
     }
 
 }
-
 
 @media (max-width:500px) {
 
@@ -1047,9 +1082,14 @@
 
     .services-bottom-card {
         width: 100%;
-        height: fit-content;
-        padding-bottom: 30px;
+        height:230px;
     }
+    .services-bottom-card img {
+
+
+
+    }
+
 
     .footer div {
         font-size: 1rem;
@@ -1063,8 +1103,8 @@
         font-size: 1.7rem;
     }
 
-    .navbar-middle {
-        display: none;
+    .navbar ul li a {
+        font-size: 1.3rem;
     }
 
 
@@ -1137,15 +1177,16 @@
         width: 100%;
         height: 300px;
         overflow: hidden;
-
-
     }
 
     .home-right img {
         margin-top: 25px;
         height: 460px;
         width: 350px;
+    }
 
+    .about-bottom-right-three {
+        font-size: 1rem;
     }
 
     .bottom-left-three-right {
@@ -1164,12 +1205,23 @@
 
 }
 
-
-@media (max-width:426px) {
+@media (max-width:428px) {
 
     .about-bottom-right-one {
         font-size: 1.4rem;
     }
+
+    .about-bottom-right-three {
+        font-size: .9rem;
+        margin: 15px 5px;
+    }
+
+   
+     .hover-effect .button {
+        width: 120px;
+        height: 44px;
+        font-size: 1rem;
+     }
 
 }
 
@@ -1323,9 +1375,10 @@
 
     .about-bottom-right-three {
         height: 44px;
-        width: 150px;
-        font-size: 20px;
-        margin: 20px 10px;
+        width: 180px;
+        font-size: .9rem;
+        font-weight: 500;
+        margin: 20px 3px;
     }
 
     .skill-section {
@@ -1424,7 +1477,7 @@
 
     .services-section {
         width: 100%;
-        height: 1350px;
+        height: fit-content;
         padding-top: 30px;
     }
 
@@ -1445,14 +1498,13 @@
 
     .services-bottom-card {
         width: 90%;
-        height: 185px;
+        height: 210px;
         margin: 20px 5%;
         background-color: solid white;
         border: 2px solid rgb(236, 232, 232);
         border-radius: 15px;
         font-family: sans-serif;
         text-align: center;
-        padding: 14px 0px 0px;
     }
 
     .services-bottom-card-one {
@@ -1472,7 +1524,7 @@
 
     .services-bottom-card-three {
         font-size: 0.9rem;
-        padding: 8px 0px 10px;
+        padding: 15px 5px 0px;
     }
 
     .contact-section {
@@ -1579,12 +1631,41 @@
 @media (max-width:336px) {
 
 
+
     .skill-section {
         height: fit-content;
         padding-bottom: 0px;
     }
+
+    .services-bottom-card {
+        height: 220px;
+    }
+
+    .hover-effect .button {
+        font-size: .8rem;
+        font-weight: 600;
+        width: 100px;
+    }
 }
 
+@media (max-width:300px) {
+
+    .services-bottom-card {
+        height: 280px;
+    }
+
+   .project_button_box {
+    flex-direction: column;
+   }
+
+   .project_button_box .button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    margin: 5px 0px;
+    font-size: 1rem;
+   }
+}
 
 @media (max-width:280px) {
 
@@ -1596,12 +1677,6 @@
         margin-top: 0;
         width: 200px;
         height: 269px;
-    }
-
-    .ri-github-fill,
-    .ri-mail-send-fill,
-    .ri-whatsapp-line {
-        display: none;
     }
 
     .contact-bottom {
