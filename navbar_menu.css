@@ -1,40 +1,55 @@
-@media (max-width:450px) {
+@media (max-width:500px) {
 
     .navbar {
         position: relative;
-    }
+    }  
 
     .navbar-middle {
         overflow-x: none;
         position: absolute;
         width: 110%;
-        height: 250px;
+        height: 300px;
         display:none;
-        margin: 310px 0px 0px -12px;
+        padding-top: 30px;
+        margin: 361px 0px 0px -20px;
         flex-direction: column;
         background-color:rgb(187, 232, 252) ; 
     }
-
+    
     .navbar-middle li {
         display: flex;
         width: 100%;
         position: relative;
         justify-content: center;    
-       
     }
 
+    
     .hide_link_small {
         display: none;
     }
+    
+    #menubar-icon{
+        display:inline-block;
+        padding: 0px 0px 0px 5px;
+        margin-right: 15px;
+        font-size: 26px;
+        font-weight: 600;
+    }
 
+    #menu_cross_btn {
+        display:flex;
+        font-size: 26px;
+        font-weight: 600;
+
+    }
 
     .show {
-        display: flex;
+        display:block;
     }
 
     .hide {
         display: none;
     }
-
-
+    
+    
 }

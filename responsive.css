@@ -1,10 +1,10 @@
-@media (max-width:1645px) {
+@media screen and (max-width:1645px) {
     .home-right img {
         width: 670px;
     }
 }
 
-@media (max-width:1629px) {
+@media screen and (max-width:1629px) {
 
 
     .home-left {
@@ -27,16 +27,9 @@
         width: 14vw;
     }
 
-    .services-section {
-        height: 720px;
-    }
-
-
-
-
 }
 
-@media (max-width:1529px) {
+@media screen and (max-width:1529px) {
 
     .home-right img {
         width: 660px;
@@ -56,7 +49,7 @@
 
 }
 
-@media (max-width:1500px) {
+@media screen and (max-width:1500px) {
 
     .home-content-text {
         padding: 0px 0px 0px 20px;
@@ -64,7 +57,7 @@
 
 }
 
-@media (max-width:1456px) {
+@media screen and (max-width:1456px) {
 
     .home-content-text {
         padding: 0px 0px 0px 20px;
@@ -77,14 +70,14 @@
 
 }
 
-@media (max-width:1440px) {
+@media screen and (max-width:1440px) {
     .home-right img {
         width: 660px;
     }
 
 }
 
-@media (max-width:1429px) {
+@media screen and (max-width:1429px) {
 
     .home-left {
         width: 60%;
@@ -106,7 +99,7 @@
 
 }
 
-@media (max-width:1377px) {
+@media screen and (max-width:1377px) {
 
     .home-left {
         width: 58%;
@@ -131,7 +124,7 @@
     }
 }
 
-@media (max-width:1323px) {
+@media screen and (max-width:1323px) {
 
     .home-content-text {
         padding: 5px 0px 0px 20px;
@@ -156,7 +149,7 @@
 
 }
 
-@media (max-width:1267px) {
+@media screen and (max-width:1267px) {
 
     .text-two {
         font-size: 3.5rem;
@@ -205,7 +198,7 @@
 
 }
 
-@media (max-width:1189px) {
+@media screen and (max-width:1189px) {
 
     .home {
         height: 780px;
@@ -235,7 +228,7 @@
     }
 }
 
-@media (max-width:1173px) {
+@media screen and (max-width:1173px) {
 
     .home-left {
         flex-basis: 55%;
@@ -250,7 +243,7 @@
     }
 
     .home-right img {
-        width: 500px;
+        /* width: 500px; */
         height: 680px;
         margin-top: 75px;
     }
@@ -258,7 +251,7 @@
 
 }
 
-@media (max-width:1161px) {
+@media screen and (max-width:1161px) {
 
     .skill-bottom-left-three {
         display: flex;
@@ -266,7 +259,7 @@
     }
 }
 
-@media (max-width:1100px) {
+@media screen and (max-width:1100px) {
 
     .home {
         height: 780px;
@@ -281,13 +274,13 @@
     }
 
     .home-right img {
-        width: 500px;
+        /* width: 500px; */
         height: 680px;
 
     }
 }
 
-@media (max-width:1077px) {
+@media screen and (max-width:1077px) {
     .home-content-text {
         width: 98%;
     }
@@ -302,36 +295,63 @@
 
 }
 
-@media (max-width:1024px) {
+@media screen and (max-width:1024px) {
     .home-right img {
         width: 590px;
     }
 }
 
-@media (max-width:1000px) {
+@media screen and (max-width:1000px) {
 
     .home {
         height: 750px;
     }
 
     .home-right img {
-        width: 490px;
         height: 650px;
+    }
+
+    
+    .skill-section {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .skill-bottom {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+
+    }
+
+    .skill-bottom-left-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .skill-bottom-right-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 25px 0px 20px;
     }
 
     .skill-bottom-left-one {
         font-size: 1.5rem;
+
     }
+
+    .bottom-left-three-right {
+        margin-left: 20px;
+    }
+
 
 }
 
-@media (max-width:980px) {
-    .about-bottom-right-two {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width:870px) {
+@media screen and (max-width:870px) {
 
     .home {
         height: 650px;
@@ -343,7 +363,7 @@
 
     .home-right img {
         margin-top: 63px;
-        width: 400px;
+        width: fit-content;
         height: 550px;
     }
 
@@ -353,27 +373,19 @@
         padding: 0px 0px
     }
 
-    .about-bottom-right {
-        padding: 0px 10px;
-    }
-
-    .skill-bottom-left-three {
-        width: 24vw;
-    }
-
     .contact-middle {
-        width: 75%;
+        width: 80%;
     }
 
     .contact-bottom {
-        margin: 15px 0px 30px 0px;
+        margin: 15px 0px 75px 0px;
     }
 
 
 
 }
 
-@media (max-width:852px) {
+@media screen and (max-width:852px) {
 
     .home-content-text {
         width: 98%;
@@ -398,47 +410,19 @@
 
     .home-right img {
         margin-top: 63px;
-        width: 400px;
         height: 550px;
-    }
-
-    .about-bottom {
-        width: 100%;
-        padding-left: 0px;
-        display: flex;
-        margin: 0px;
-        flex-direction: column;
-    }
-
-    .about-bottom-right {
-        padding: 10px 50px;
-    }
-
-    .about-bottom-right-one {
-        padding: 35px 0px 10px 20px;
-    }
-
-    .about-bottom-right-two {
-        font-size: 1rem;
-    }
-
-    .about-bottom-right-three {
-        margin: 20px 20px;
     }
 
 }
 
-@media (max-width:824px) {
+@media screen and (max-width:824px) {
     .home-left {
         flex-basis: 70%;
     }
 
-
-
-
 }
 
-@media (max-width:806px) {
+@media screen and (max-width:806px) {
 
     .home-left {
         flex-basis: 50%;
@@ -471,65 +455,21 @@
 
     .home-right img {
         margin-top: 63px;
-        width: 350px;
         height: 480px;
     }
 
-    .about-bottom {
-        width: 100%;
-        padding-left: 0px;
-        display: flex;
-        margin: 0px;
-        flex-direction: column;
-    }
-
-    .about-bottom-right {
-        padding: 10px 50px;
-    }
-
-    .about-bottom-right-one {
-        padding: 35px 0px 10px 20px;
-    }
-
-    .about-bottom-right-two {
-        /* padding-left: 1.25rem; */
-    }
-
-    .about-bottom-right-three {
-        font-size: 1.3rem;
-        height: 100%;
-
-    }
-
     .Cv-box {
-        margin: 0px 0px;
-    }
-
-    .Cv-box .button {
-        margin-right: 20px;
+        margin: 25px 0px 70px;
     }
 
     .skill-section {
         height: fit-content;
-        padding-bottom: 30px;
+        padding-bottom: 130px;
     }
-
-    .contact-section {
-        height: 370px;
-    }
-
-    .skill-bottom-left-one {
-        font-size: 1.25rem;
-    }
-
-    .skill-bottom-left-two {
-        font-size: 1rem;
-    }
-
 
 }
 
-@media (max-width:777px) {
+@media screen and (max-width:777px) {
 
     .services-bottom-card {
         height: 240px;
@@ -543,7 +483,7 @@
 
 }
 
-@media (max-width:753px) {
+@media screen and (max-width:753px) {
 
     .services-bottom-card {
         height: 240px;
@@ -563,7 +503,7 @@
 
 }
 
-@media (max-width:744px) {
+@media screen and (max-width:744px) {
 
     .skill-section {
         height: fit-content;
@@ -572,7 +512,7 @@
 
 }
 
-@media (max-width:742px) {
+@media screen and (max-width:742px) {
 
     .navbar-middle li a {
         font-size: 1rem;
@@ -592,15 +532,7 @@
 
 }
 
-@media (max-width:726px) {
-
-    .skill-bottom-right-top {
-        font-size: 1.2rem;
-    }
-
-    .skill-bottom-right-bottom {
-        font-size: 2.6rem;
-    }
+@media screen and (max-width:726px) {
 
     .services-section {
         height: fit-content;
@@ -625,13 +557,9 @@
         height: 50px;
         font-size: 1.4rem;
     }
-
-
-
-
 }
 
-@media (max-width:706px) {
+@media screen and (max-width:706px) {
 
 
     .navbar-section {
@@ -640,18 +568,12 @@
     }
 
     .navbar {
-        display: flex;
         height: 60px;
-        justify-content: space-between;
+
     }
 
     .navbar-logo {
         font-size: 1.75rem;
-    }
-
-    .navbar-middle {
-        display: flex;
-        flex-direction: row;
     }
 
     #menubar-icon {
@@ -665,27 +587,11 @@
         font-size: 14px;
     }
 
-
-    .skill-bottom-left-three {
-        width: 28vw;
-    }
-
-    .services-section {
-        height: fit-content;
-
-    }
-
     .services-bottom-card-container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
         width: 86%;
-        height: fit-content;
         margin: 25px 7%;
         padding-left: 0%;
     }
-
-
 
     .services-bottom-card-two {
         font-size: 25px;
@@ -698,7 +604,7 @@
 
 }
 
-@media (max-width:687px) {
+@media screen and (max-width:687px) {
 
     .home-left {
         z-index: 0;
@@ -716,48 +622,17 @@
 
 }
 
-@media (max-width:662px) {
-
-    .skill-section {
-        width: 100%;
-        height: fit-content;
-        padding-bottom: 30px;
-    }
-
-    .skill-bottom {
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
-
-    }
-
-
-    .skill-bottom-left-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 0px;
-
-    }
-
-    .skill-bottom-right-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 25px 0px 20px;
-    }
-
-    .skill-bottom-left-one {
-        font-size: 1.5rem;
-
-    }
-
-}
-
-@media (max-width:656px) {
+@media screen and (max-width:656px) {
 
     .home {
         position: relative;
+        height: 587px;
+    }
+
+    .home-right img {
+        margin-top: 63px;
+        width: 350px;
+        height:fit-content;
     }
 
     .home-left {
@@ -790,24 +665,12 @@
 
 
     .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 105px;
         height: 40px;
         margin: 4px 2px 0px;
         font-size: 19px;
 
     }
-
-    .about-bottom-right-three {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        font-size: 19px;
-    }
-
+    
     .services-bottom-card {
         height: 230px;
     }
@@ -817,28 +680,14 @@
     } 
 
     .contact-bottom {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 135px;
-        height: 40px;
-        margin: 20px 2px 0px;
+        height: 45px;
+        margin: 20px 0px 70px;
 
     }
 
     .contact-bottom a {
         font-size: 1.2rem;
-    }
-
-    .home {
-        height: 587px;
-    }
-
-    .home-right img {
-        margin-top: 63px;
-        width: 350px;
-        height: 480px;
     }
 
     .skill-bottom-right-container {
@@ -851,13 +700,22 @@
 
 }
 
-@media (max-width:588px) {
+@media screen and (max-width:588px) {
 
+    .home {
+        height:587px;
+    }
+
+    .home-right img {
+        margin-top: 63px;
+        width: 300px;
+        height:fit-content;
+    }
     .navbar ul li a {
         font-size: .8rem;
     }
 
-    .skill-bottom-left-two {
+    .skill-bottom-left-two,.contact-middle{
         font-size: 1rem;
     }
 
@@ -881,7 +739,7 @@
 
 }
 
-@media (max-width:559px) {
+@media screen and (max-width:559px) {
 
 
     .navbar-logo {
@@ -899,54 +757,71 @@
     }
 
     .home {
-        position: relative;
-        height: 447px;
-
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
     }
 
     .home-left {
         display: flex;
-        position: relative;
-        flex-basis: 70%;
-
+        flex-wrap: wrap;
+        width: 100%;
+        flex-basis: 100%;
+        margin-top: 60px;
+        padding-top: 80px;
     }
 
     .home-content-text {
-        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
 
-    }
-
-    .home-right {
-        margin-top: 0px;
-    }
-
-
-    .home-right img {
-        margin-top: 65px;
-        width: 340px;
-        height: 420px;
     }
 
     .text-one {
-        font-size: 01rem;
+        font-size: 2rem;
     }
 
-
     .text-two {
-        font-size: 1.7rem;
+        font-size: 2.9rem;
+        width: 100%;
 
     }
 
     .text-three {
-        font-size: 1.2rem;
-        padding: 0px;
-        margin: 0px;
+        font-size: 1.8rem;
+        width: 100%;
     }
 
     .text-four {
         font-size: 1rem;
+        font-weight: 400;
+        padding: 5px 3px 15px;
     }
 
+    .home-right {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .home-right img {
+        height:auto;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .skill-bottom-left-three {
+        width: fit-content;
+    }
+
+    .bottom-left-three-right {
+        width: 100%;
+    }
 
     .services-bottom-card {
         height:220px;
@@ -964,7 +839,7 @@
 
 }
 
-@media (max-width:516px) {
+@media screen and (max-width:516px) {
 
     .skill-section {
         height: fit-content;
@@ -973,15 +848,14 @@
 
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
 
     .navbar-logo {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
-
     .navbar ul li a {
-        font-size: .6rem;
+        font-size: 1.2rem;
     }
 
     .ri-github-fill,
@@ -990,55 +864,13 @@
         font-size: 1.4rem;
     }
 
-    .home {
-        position: relative;
-        height: 392px;
-    }
-
-    .home-right img {
-        /* margin-top: 63px; */
-        width: 280px;
-        height: 360px;
-    }
-
-    .home-left {
-        position: relative;
-        flex-basis: 90%;
-
-    }
-
-    .home-content-text {
-        height: 250px;
-        padding: 0px 10px 0px;
-
-    }
-
-    .text-one {
-        font-size: 1rem;
-    }
-
-
-    .text-two {
-        font-size: 1.5rem;
-
-    }
-
-    .text-three {
-        font-size: 1.3rem;
-
-    }
-
-    .text-four {
-        font-size: .8rem;
-    }
-
     .button {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 85px;
-        height: 36px;
-        margin: 4px 2px 0px;
+        width:fit-content;
+        height: 40px;
+        margin: 20px 2px 50px;
         font-size: 16px;
 
     }
@@ -1049,34 +881,11 @@
         padding-bottom: 30px;
     }
 
-    .skill-bottom {
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
-
-    }
-
-
-    .skill-bottom-left-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 0px;
-
-    }
-
-    .skill-bottom-right-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 25px 0px 20px;
-    }
-
     .skill-bottom-left-one {
         font-size: 1.4rem;
     }
 
-    .skill-bottom-left-two {
+    .skill-bottom-left-two{
         font-size: 1rem;
     }
 
@@ -1084,12 +893,6 @@
         width: 100%;
         height:230px;
     }
-    .services-bottom-card img {
-
-
-
-    }
-
 
     .footer div {
         font-size: 1rem;
@@ -1097,98 +900,32 @@
 
 }
 
-@media (max-width:450px) {
+@media screen and (max-width:450px) {
 
-    .navbar-logo {
-        font-size: 1.7rem;
-    }
-
-    .navbar ul li a {
-        font-size: 1.3rem;
-    }
-
-
-    #menubar-icon {
-        display: inline-block;
-        padding: 0px 0px 0px 5px;
-        font-size: 26px;
-        font-weight: 600;
-    }
-
-    .home {
-        display: flex;
-        flex-direction: column;
-        height: 742px;
-    }
-
-    .home-left {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        flex-basis: 35%;
-        margin-top: 30px;
-        padding-top: 80px;
-    }
-
-    .home-content-text {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: fit-content;
-
+    .secondry-top {
+        font-size: 1.2rem;
     }
 
     .text-one {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .text-two {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
         width: 100%;
 
     }
 
     .text-three {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         width: 100%;
     }
 
     .text-four {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 400;
         padding: 5px 3px 15px;
     }
-
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 125px;
-        height: 44px;
-        margin: 4px 2px 0px;
-        font-size: 22px;
-
-    }
-
-    .home-right {
-        display: flex;
-        flex-basis: 65%;
-        justify-content: center;
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-    }
-
-    .home-right img {
-        margin-top: 25px;
-        height: 460px;
-        width: 350px;
-    }
-
-    .about-bottom-right-three {
-        font-size: 1rem;
-    }
-
     .bottom-left-three-right {
         margin-left: 10px;
     }
@@ -1205,18 +942,8 @@
 
 }
 
-@media (max-width:428px) {
+@media screen and (max-width:428px) {
 
-    .about-bottom-right-one {
-        font-size: 1.4rem;
-    }
-
-    .about-bottom-right-three {
-        font-size: .9rem;
-        margin: 15px 5px;
-    }
-
-   
      .hover-effect .button {
         width: 120px;
         height: 44px;
@@ -1225,7 +952,7 @@
 
 }
 
-@media (max-width:370px) {
+@media screen and (max-width:370px) {
 
     .skill-bottom {
         position: relative;
@@ -1243,7 +970,7 @@
 
 }
 
-@media (max-width:364px) {
+@media screen and (max-width:364px) {
 
     .navbar-section {
         height: 60px;
@@ -1274,7 +1001,7 @@
     .home {
         display: flex;
         flex-direction: column;
-        height: 630px;
+
 
     }
 
@@ -1316,116 +1043,12 @@
         padding: 5px 3px 15px;
     }
 
-    .home-right {
-        width: 350px;
-        flex-basis: 55%;
-        margin-left: 5px;
-
-
-    }
-
-    .home-right img {
-        height: 357px;
-        width: 270px;
-
-    }
-
+   
     .about-me-section {
         width: 100%;
         height: fit-content;
         padding: 30px 0px;
         background-color: rgb(252, 240, 224);
-    }
-
-    .top-heading {
-        font-size: 20px;
-        margin-bottom: 0px;
-        height: 35px;
-        width: 130px;
-    }
-
-    .about-bottom {
-        position: relative;
-        width: 100%;
-        padding-left: 0px;
-        display: flex;
-        margin: 0px;
-        flex-direction: column;
-        /* background-color: green; */
-    }
-
-    .about-bottom-right {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .about-bottom-right-one {
-        font-size: 1.2rem;
-        width: 100%;
-        padding: 30px 0px 15px 5px;
-    }
-
-    .about-bottom-right-two {
-        font-size: .92rem;
-        padding: 0px 0px;
-        line-height: 20px;
-        /* background-color: gainsboro; */
-    }
-
-    .about-bottom-right-three {
-        height: 44px;
-        width: 180px;
-        font-size: .9rem;
-        font-weight: 500;
-        margin: 20px 3px;
-    }
-
-    .skill-section {
-        width: 100%;
-        height: fit-content;
-        padding-top: 30px;
-    }
-
-
-    .skill-bottom {
-        width: 80%;
-        padding: 0px 10px;
-        margin: 0px;
-
-    }
-
-    .skill-bottom-left-container {
-        width: 100%;
-        height: fit-content;
-
-    }
-
-    .skill-top {
-        font-size: 1.25rem;
-        margin: 20px 0px;
-        height: 35px;
-        width: 130px;
-
-    }
-
-    .skill-bottom-left-one {
-        font-size: 1.2rem;
-        padding: 5px 0px;
-    }
-
-    .skill-bottom-left-two {
-        font-size: 0.92em;
-        font-weight: 300;
-        padding: 5px 0px;
-        margin: 0px;
-        line-height: 20px;
-    }
-
-    .skill-bottom-left-three {
-        width: 50%;
-        height: 60px;
-        margin: 5px 0px;
     }
 
     .bottom-left-three-left {
@@ -1435,57 +1058,30 @@
 
     }
 
-    .bottom-left-three-right {
-        width: 100%;
-        font-size: 0.68rem;
-        padding: 30px 0px 0px 0px;
+    .skill-bottom {
+        margin-top: 25px;
     }
 
-    .skill-bottom-right-container {
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 5px 0px;
-
+    .skill-bottom-left-three ,.bottom-left-three-left ,.bottom-left-three-right {
+       width: fit-content;
     }
 
     .skill-bottom-right {
         width: 50%;
-        height: 110px;
-        margin: 0px;
-        padding: 0px 2vw;
+        padding: 0px 0vw;
     }
-
-    .skill-bottom-right-common {
-        font-family: sans-serif;
-        color: #4070f4;
-        font-weight: 500;
-    }
-
-    .skill-bottom-right-top {
-        font-size: 1rem;
-        padding: 0px;
-
-    }
-
     .skill-bottom-right-bottom {
-        font-size: 3rem;
-        padding: 0px 0px;
+         font-size: 3rem;
+    }
+
+    .bottom-left-three-right {
+        padding: 30px 0px 0px 20px;
     }
 
     .services-section {
         width: 100%;
         height: fit-content;
         padding-top: 30px;
-    }
-
-    .service-heading {
-        font-size: 1.25rem;
-        margin: 0px 0px 20px;
-        height: 35px;
-        width: 150px;
     }
 
     .services-bottom-card-container {
@@ -1529,20 +1125,7 @@
 
     .contact-section {
         width: 100%;
-        height: 340px;
         padding-top: 30px;
-    }
-
-    .Contact-heading {
-        font-size: 1.25rem;
-        padding-right: 5px;
-        height: 35px;
-        width: 150px;
-    }
-
-    .contact-top {
-        font-size: 1.5em;
-        padding: 5px 0px 5px 9%;
     }
 
     .contact-middle {
@@ -1555,14 +1138,7 @@
     }
 
     .contact-bottom {
-        height: 49px;
-        width: 125px;
-        margin: 8px 0px;
-        padding: 0px;
-    }
-
-    .contact-bottom a {
-        font-size: 1.3rem;
+        margin-bottom: 30px;
     }
 
     .footer {
@@ -1579,12 +1155,12 @@
 
 }
 
-@media (max-width:349px) {
+@media screen and (max-width:349px) {
 
     .home {
         display: flex;
         flex-direction: column;
-        height: 648px;
+        height:fit-content;
     }
 
     .home-left {
@@ -1601,26 +1177,20 @@
         height: fit-content;
     }
 
-
+/* 
     .home-right {
         display: flex;
         flex-basis: 100%;
         width: 100%;
         flex-basis: 50%;
-        /* background-color: green; */
         height: 250px;
         overflow: hidden;
     }
 
 
-    .home-right img {
-        margin-top: 0px;
-    }
-
     .skill-bottom-left-three {
         width: 200px;
-        /* background-color: green; */
-    }
+    } */
 
     .bottom-left-three-right {
         padding: 42px 5px;
@@ -1628,7 +1198,7 @@
 
 }
 
-@media (max-width:336px) {
+@media screen and (max-width:336px) {
 
 
 
@@ -1648,7 +1218,7 @@
     }
 }
 
-@media (max-width:300px) {
+@media screen and (max-width:300px) {
 
     .services-bottom-card {
         height: 280px;
@@ -1667,17 +1237,12 @@
    }
 }
 
-@media (max-width:280px) {
+@media screen and (max-width:280px) {
 
     .home {
-        height: 570px;
+        height:fit-content;
     }
 
-    .home-right img {
-        margin-top: 0;
-        width: 200px;
-        height: 269px;
-    }
 
     .contact-bottom {
         height: 37px;
