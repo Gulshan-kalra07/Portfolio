@@ -219,10 +219,10 @@
 .home-right {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 70%;
-    width: fit-content;
-    align-items: flex-end;
     justify-content:flex-end;
+    align-items: flex-end;
+    width: fit-content;
+    flex-basis: 70%;
     z-index: 5;
 
 }
@@ -235,19 +235,19 @@
 .about-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100%;
+    align-items: center;
     height:fit-content;
+    width: 100%;
     background-color: rgb(252, 234, 236);
 }
 
 
 .Cv-box {
     display: flex;
-    width:100%;
     justify-content: center;
     flex-direction: row;
+    width:100%;
     margin: 30px 0px 100px;
 
 }
@@ -299,16 +299,16 @@
 .skill-bottom-left-one {
     font-size: 1.8rem;
     font-weight: 500;
-    padding-top: 20px;
     font-family: sans-serif;
+    padding-top: 20px;
 }
 
 .skill-bottom-left-two {
+    text-align: justify;
     font-size: var(--content_font);
     font-weight: 300;
-    padding-top: 15px;
     font-family: sans-serif;
-    text-align: justify;
+    padding-top: 15px;
 }
 
 .skill-bottom-left-three {
@@ -338,8 +338,8 @@
 
 .skill-bottom-right-common {
     font-family: sans-serif;
-    color: var(--main_color);
     font-weight: 500;
+    color: var(--main_color);
 }
 
 .skill-bottom-right-top {
@@ -355,8 +355,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     height:fit-content;
+    width: 100%;
     background-color: rgb(252, 234, 236);
     /* background-color: green; */
 }
@@ -373,17 +373,16 @@
 
 .services-bottom-card {
     display: flex;
+    text-align: center;
+    position: relative;
     width: 31.3%;
     height: 240px;
     margin: 20px 1%;
+    overflow: hidden;
     border:none;
     border-radius: 15px;
     font-family: sans-serif;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
     color:#ffffff;
-    position: relative;
 }
 
 .services-bottom-card img {
@@ -416,8 +415,8 @@
 }
 
 .services-bottom-card-para {
-    padding: 10px 0px 10px;
     font-weight: 500;
+    padding: 10px 0px 10px;
 }
 
 .services-bottom-card-three button {
@@ -432,27 +431,27 @@
 .contact-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100%;
+    align-items: center;
     height: fit-content;
+    width: 100%;
     background-color: rgb(187, 232, 252);
 
 }
 
 .contact-middle {
-    width: 70%;
-    font-size: var(--content_font);
-    font-weight: 400;
     text-align: center;
+    width: 70%;
+    font-weight: 400;
+    font-size: var(--content_font);
 }
 
 .contact-bottom {
     display: flex;
-    width: 160px;
-    height: 50px;
     align-items: center;
     justify-content: center;
+    width: 160px;
+    height: 50px;
     margin: 30px 0px 70px;
     background-color: var(--main_color);
     border: 2px solid var(--main_color);
@@ -461,13 +460,13 @@
 
 .contact-bottom a {
     color: white;
-    font-weight: 500;
     font-family: sans-serif;
+    font-weight: 500;
 }
 
 .contact-bottom:hover {
-    border-color: var(--main_color);
     background-color: white;
+    border-color: var(--main_color);
 }
 
 .contact-bottom:hover a {
@@ -478,17 +477,19 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    width: 100%;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
     background-color: var(--main_color);
 }
 
 .footer a {
-    color: #ffffff;
     font-size: 1.37rem;
-    padding: 1.1rem;
     font-weight: 400;
     font-family: sans-serif;
+    color: #ffffff;
+    padding:0px 1.1rem;
     /* background-color: green; */
 
 }

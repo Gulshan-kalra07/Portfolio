@@ -526,10 +526,6 @@
     .text-three {
         font-size: 1.25rem;
     }
-
-
-
-
 }
 
 @media screen and (max-width:726px) {
@@ -691,12 +687,8 @@
     }
 
     .skill-bottom-right-container {
-        position: relative;
-
+       position: relative;
     }
-
-
-
 
 }
 
@@ -728,14 +720,11 @@
 
         font-size: .8rem;
         padding: 20px 0px 0px 7px;
-
     }
 
     .footer a {
         font-size: 1.05rem;
     }
-
-
 
 }
 
@@ -832,7 +821,7 @@
         font-size: 1.1rem;
     }
 
-    .footer div {
+    .footer a {
         font-size: 1.1rem;
     }
 
@@ -894,7 +883,7 @@
         height:230px;
     }
 
-    .footer div {
+    .footer a {
         font-size: 1rem;
     }
 
@@ -948,6 +937,10 @@
         width: 120px;
         height: 44px;
         font-size: 1rem;
+     }
+
+     .footer a {
+        font-size: .8rem;
      }
 
 }
@@ -1218,6 +1211,14 @@
     }
 }
 
+@media screen and (max-width:310px) {
+
+    .footer a {
+        font-size: .6rem;
+        font-weight: 600;
+    }
+}
+
 @media screen and (max-width:300px) {
 
     .services-bottom-card {
@@ -1235,6 +1236,8 @@
     margin: 5px 0px;
     font-size: 1rem;
    }
+
+  
 }
 
 @media screen and (max-width:280px) {
