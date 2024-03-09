@@ -1160,7 +1160,6 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-
     }
 
     .home-content-text {
@@ -1169,21 +1168,6 @@
         width: 100%;
         height: fit-content;
     }
-
-/* 
-    .home-right {
-        display: flex;
-        flex-basis: 100%;
-        width: 100%;
-        flex-basis: 50%;
-        height: 250px;
-        overflow: hidden;
-    }
-
-
-    .skill-bottom-left-three {
-        width: 200px;
-    } */
 
     .bottom-left-three-right {
         padding: 42px 5px;
@@ -1209,6 +1193,16 @@
         font-weight: 600;
         width: 100px;
     }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .Cv-box button a {
+        font-size:.8rem;
+        font-weight: 600;
+    }
+    
 }
 
 @media screen and (max-width:310px) {
@@ -1237,7 +1231,11 @@
     font-size: 1rem;
    }
 
-  
+   .Cv-box button a {
+    font-size:.7rem;
+    font-weight: 600;
+}
+
 }
 
 @media screen and (max-width:280px) {
@@ -1246,9 +1244,25 @@
         height:fit-content;
     }
 
-
     .contact-bottom {
         height: 37px;
-        margin-bottom: 0px;
+         margin-bottom: 0px;
     }
+
+    .Cv-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Cv-box button {
+       width: 80%;
+       margin: 10px 0px;
+    }
+
+    .Cv-box button a {
+        font-size: 1rem;
+    }
+
+
 }
