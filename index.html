@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
   </head>
   <!--  oncontextmenu="return false" -->
@@ -22,26 +22,26 @@
         <div class="navbar-left">
           <a class="navbar-logo">Portfolio.</a>
         </div>
-        <ul class="navbar-middle" id="navbar-middle">
-          <li><a href="#Home" onclick="hide()" class="navbar_link_btn">Home</a></li>
-          <li><a href="#About" onclick="hide()" class="navbar_link_btn">About</a></li>
-          <li><a href="#Skills" onclick="hide()" class="navbar_link_btn">Skills</a></li>
-          <li><a href="#Services" onclick="hide()" class="navbar_link_btn">Projects</a></li>
-          <li><a href="#Contact" onclick="hide()" class="navbar_link_btn">Contact</a></li>
+        <ul class="navbar-middle hide" id="navbar-middle">
+          <li><a href="#Home" class="navbar_link_btn">Home</a></li>
+          <li><a href="#About" class="navbar_link_btn">About</a></li>
+          <li><a href="#Skills" class="navbar_link_btn">Skills</a></li>
+          <li><a href="#Projects" class="navbar_link_btn">Projects</a></li>
+          <li><a href="#Contact" class="navbar_link_btn">Contact</a></li>
           <li class="hide_link_large">
-            <a href="https://github.com/Gulshan-kalra07" target="_blank">
+            <a class="navbar_link_btn" href="https://github.com/Gulshan-kalra07" target="_blank">
               <i class="ri-github-fill"></i>
             </a>
-            <a href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
+            <a class="navbar_link_btn" href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
               <i class="ri-mail-send-fill"></i>
             </a>
-            <a href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
+            <a class="navbar_link_btn" href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
               <i class="ri-whatsapp-line"></i>
             </a>
           </li>
-          <a href="#" id="menu_cross_btn">
+          <!-- <a href="#" id="navbar_cross_btn">
             <i class="ri-close-large-line" id="menu_cross_btn"></i>
-          </a>
+          </a> -->
         </ul>
         <div class="navbar-right">
           <a href="https://github.com/Gulshan-kalra07" target="_blank">
@@ -54,7 +54,7 @@
             <i class="ri-whatsapp-line hide_link_small"></i>
           </a>
           <a href="#" id="menubtn">
-            <i class="ri-menu-fill" id="menubar-icon" onclick="myfunction()"></i>
+            <i class="ri-menu-fill" id="menubar-icon"></i>
           </a>
         </div>
       </div>
@@ -84,10 +84,10 @@
         backend technologies.</p>
       <div class="Cv-box">
         <button class="button scale cursor">
-          <a href="image/UI Design.pdf" target="_blank">Live Resume</a>
+          <a href="image/Interview_resume.pdf" target="_blank">Live Resume</a>
         </button>
         <button class="button scale cursor">
-          <a href="image/UI Design.pdf" download="Gulshan_kalra_CV">Download CV</a>
+          <a href="image/Interview_resume.pdf" download="Gulshan_kalra_CV">Download CV</a>
         </button>
       </div>
     </section>
@@ -126,7 +126,7 @@
         </div>
       </div>
     </section>
-    <section class="services-section" id="Services">
+    <section class="services-section" id="Projects">
       <p class="primary-heading">MY Projects</p>
       <div class="services-bottom-card-container">
         <div class="services-bottom-card scale cursor">
@@ -212,8 +212,11 @@
     <section class="contact-section" id="Contact">
       <p class="primary-heading">Contact Me</p>
       <p class="secondry-top">Have Any Project?</p>
-      <p class="contact-middle">Greetings! I’ve been self-taught in Web development for 1 years. HTML, CSS, and JavaScript are my playground.Hey there! I’m a fresh BCA graduate. I specialize in web development because I believe every business needs a strong online presence. I love coding beautiful websites. Let’s connect!</p>
-      <button class="button contact-bottom scale cursor"><a href="SMS:+91720-650-4056" target="_blank">Let's Chat</a></button>
+      <p class="contact-middle">Greetings! I’ve been self-taught in Web development for 1 years. HTML, CSS, and
+        JavaScript are my playground.Hey there! I’m a fresh BCA graduate. I specialize in web development because I
+        believe every business needs a strong online presence. I love coding beautiful websites. Let’s connect!</p>
+      <button class="button contact-bottom scale cursor"><a href="SMS:+91720-650-4056" target="_blank">Let's
+          Chat</a></button>
     </section>
     <footer class="footer">
       <a>Created By Gulshan kalra | © 2023 All Rights Reserved</a>

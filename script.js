@@ -1,15 +1,32 @@
-document.getElementById("menubar-icon").onclick = function () {
-    myfunction();
-};
-function myfunction() {
-    document.getElementById("navbar-middle").classList.toggle("show");
+let menubutton = document.getElementById('menubtn');
+let navbar_middle = document.getElementById('navbar-middle');
+let navbar_link_btn = document.getElementsByClassName('navbar_link_btn');
+
+menubutton.onclick = () => {
+    if (navbar_middle.classList.contains('hide')) {
+        navbar_middle.classList.remove('hide');
+        navbar_middle.classList.add('show');
+        console.log('show');
+        console.log(navbar_middle.classList.contains('show'));
+    } else {
+        navbar_middle.classList.remove('show');
+        navbar_middle.classList.add('hide');
+        console.log('hide');
+        console.log(navbar_middle.classList.contains('hide'));
+    }
+
 }
 
-document.getElementsByClassName("navbar_link_btn").onclick = function () {
-    hide();
+navbar_link_btn.onclick = () => {
+    if (navbar_middle.classList.contains('show')) {
+        navbar_middle.classList.remove('show');
+        navbar_middle.classList.add('hide');
+        console.log('show');
+        console.log(navbar_middle.classList.contains('show'));
+    } else {
+        navbar_middle.classList.remove('show');
+        navbar_middle.classList.add('hide');
+        console.log('hide');
+        console.log(navbar_middle.classList.contains('hide'));
+    }
 }
-
-function hide() {
-    document.getElementById("navbar-middle").classList.toggle("hide");
-}
-    
