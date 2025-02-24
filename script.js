@@ -39,4 +39,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
->>>>>>> ff6fcbf (click_event)
+
