@@ -1,32 +1,42 @@
-let menubutton = document.getElementById('menubtn');
-let navbar_middle = document.getElementById('navbar-middle');
-let navbar_link_btn = document.getElementsByClassName('navbar_link_btn');
 
-menubutton.onclick = () => {
-    if (navbar_middle.classList.contains('hide')) {
-        navbar_middle.classList.remove('hide');
-        navbar_middle.classList.add('show');
-        console.log('show');
-        console.log(navbar_middle.classList.contains('show'));
-    } else {
-        navbar_middle.classList.remove('show');
-        navbar_middle.classList.add('hide');
-        console.log('hide');
-        console.log(navbar_middle.classList.contains('hide'));
-    }
+document.addEventListener("DOMContentLoaded", function () {
+    const menuBtn = document.getElementById("menubtn");
+    const menuIcon = document.getElementById("menubar-icon");
+    const navbarMiddle = document.getElementById("navbar-middle");
+    const menuLinks = document.querySelectorAll(".navbar_link_btn");
 
-}
+    // Toggle Menu on click
+    menuBtn.addEventListener("click", function () {
+        navbarMiddle.classList.toggle("hide");
+        menuIcon.classList.toggle("ri-menu-fill");
+        menuIcon.classList.toggle("ri-close-fill");
+    });
 
-navbar_link_btn.onclick = () => {
-    if (navbar_middle.classList.contains('show')) {
-        navbar_middle.classList.remove('show');
-        navbar_middle.classList.add('hide');
-        console.log('show');
-        console.log(navbar_middle.classList.contains('show'));
-    } else {
-        navbar_middle.classList.remove('show');
-        navbar_middle.classList.add('hide');
-        console.log('hide');
-        console.log(navbar_middle.classList.contains('hide'));
-    }
-}
+    // Close menu when a link is clicked (Mobile Mode)
+    menuLinks.forEach(link => {
+        link.addEventListener("click", function () {
+            if (!navbarMiddle.classList.contains("hide")) {
+                navbarMiddle.classList.add("hide");
+                menuIcon.classList.add("ri-menu-fill");
+                menuIcon.classList.remove("ri-close-fill");
+            }
+        });
+    });
+
+    // Smooth scrolling effect
+    menuLinks.forEach(link => {
+        link.addEventListener("click", function (event) {
+            event.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - 50, // Adjust offset for fixed navbar
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});
+>>>>>>> ff6fcbf (click_event)
