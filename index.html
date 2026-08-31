@@ -1,228 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="navbar_menu.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-  </head>
-  <!--  oncontextmenu="return false" -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="navbar_menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+</head>
+<!--  oncontextmenu="return false" -->
 
-  <body>
-    <nav class="navbar-section">
-      <div class="navbar">
-        <div class="navbar-left">
-          <a class="navbar-logo">Portfolio.</a>
-        </div>
-        <ul class="navbar-middle hide" id="navbar-middle">
-          <li><a href="#Home" class="navbar_link_btn">Home</a></li>
-          <li><a href="#About" class="navbar_link_btn">About</a></li>
-          <li><a href="#Skills" class="navbar_link_btn">Skills</a></li>
-          <li><a href="#Projects" class="navbar_link_btn">Projects</a></li>
-          <li><a href="#Contact" class="navbar_link_btn">Contact</a></li>
-          <li class="hide_link_large">
-            <a class="navbar_link_btn" href="https://github.com/Gulshan-kalra07" target="_blank">
-              <i class="ri-github-fill"></i>
-            </a>
-            <a class="navbar_link_btn" href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
-              <i class="ri-mail-send-fill"></i>
-            </a>
-            <a class="navbar_link_btn" href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
-              <i class="ri-whatsapp-line"></i>
-            </a>
-          </li>
-          <!-- <a href="#" id="navbar_cross_btn">
+<body>
+  <nav class="navbar-section">
+    <div class="navbar">
+      <div class="navbar-left">
+        <a class="navbar-logo">Portfolio.</a>
+      </div>
+      <ul class="navbar-middle hide" id="navbar-middle">
+        <li><a href="#Home" class="navbar_link_btn">Home</a></li>
+        <li><a href="#About" class="navbar_link_btn">About</a></li>
+        <li><a href="#Skills" class="navbar_link_btn">Skills</a></li>
+        <li><a href="#Projects" class="navbar_link_btn">Projects</a></li>
+        <li><a href="#Contact" class="navbar_link_btn">Contact</a></li>
+        <li class="hide_link_large">
+          <a class="navbar_link_btn" href="https://github.com/Gulshan-kalra07" target="_blank">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a class="navbar_link_btn" href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
+            <i class="ri-mail-send-fill"></i>
+          </a>
+          <a class="navbar_link_btn" href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+        </li>
+        <!-- <a href="#" id="navbar_cross_btn">
             <i class="ri-close-large-line" id="menu_cross_btn"></i>
           </a> -->
-        </ul>
-        <div class="navbar-right">
-          <a href="https://github.com/Gulshan-kalra07" target="_blank">
-            <i class="ri-github-fill hide_link_small"></i>
-          </a>
-          <a href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
-            <i class="ri-mail-send-fill hide_link_small"></i>
-          </a>
-          <a href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
-            <i class="ri-whatsapp-line hide_link_small"></i>
-          </a>
-          <a href="#" id="menubtn">
-            <i class="ri-menu-fill" id="menubar-icon"></i>
-          </a>
+      </ul>
+      <div class="navbar-right">
+        <a href="https://github.com/Gulshan-kalra07" target="_blank">
+          <i class="ri-github-fill hide_link_small"></i>
+        </a>
+        <a href="mailto:gulshankalrakalra38@gmail.com" target="_blank">
+          <i class="ri-mail-send-fill hide_link_small"></i>
+        </a>
+        <a href="https://wa.me/917206504056/?text= Hi Gulshan, Whatsup" target="_blank">
+          <i class="ri-whatsapp-line hide_link_small"></i>
+        </a>
+        <a href="#" id="menubtn">
+          <i class="ri-menu-fill" id="menubar-icon"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <section class="home" id="Home">
+    <div class="home-left">
+      <div class="home-content-text">
+        <p class="text-one">Hello,</p>
+        <p class="text-two">I,am Gulshan kalra</p>
+        <p class="text-three">MCA Stu. & UI/UX Designer</p>
+        <p class="text-four">From India</p>
+        <button class="button scale cursor"><a href="">Hire Me</a></button>
+      </div>
+    </div>
+    <div class="home-right"><img src="introimage1.png" alt=""></div>
+  </section>
+  <section class="about-section" id="About">
+    <p class="primary-heading">About Me</p>
+    <p class="secondry-top">Designing Is My Passion</p>
+    <p class="contact-middle"> Hello! I am a passionate MCA student enrolled at Baba Masthnath University in Rohtak,
+      Haryana. Alongside
+      my
+      academic pursuits, I actively delve into the realm of UI Designing and frontend development, where I craft engaging and
+      dynamic
+      user interfaces. My aspiration is to evolve into a proficient in UI/UX designing</p>
+    <div class="Cv-box">
+      <button class="button scale cursor">
+        <a href="image/Interview_resume.pdf" target="_blank">Live Resume</a>
+      </button>
+      <button class="button scale cursor">
+        <a href="image/UI Design.pdf" download="Gulshan_kalra_CV">Download CV</a>
+      </button>
+    </div>
+  </section>
+  <section class="skill-section" id="Skills">
+    <p class="primary-heading">My Skills</p>
+    <div class="skill-bottom">
+      <div class="skill-bottom-left-container">
+        <p class="skill-bottom-left-one">skills Reflects Our Knowledge</p>
+        <p class="skill-bottom-left-two">
+          As a frontend developer, our skills are grounded in a deep understanding of user interface design, web
+          technologies, and client-side scripting languages. We excel in crafting visually appealing and responsive
+          websites and web applications that prioritize user experience.</p>
+        <div class="skill-bottom-left-three">
+          <p class="bottom-left-three-left">01</p>
+          <p class="bottom-left-three-right">Years Of
+            Experience</p>
         </div>
       </div>
-    </nav>
-    <section class="home" id="Home">
-      <div class="home-left">
-        <div class="home-content-text">
-          <p class="text-one">Hello,</p>
-          <p class="text-two">I,am Gulshan kalra</p>
-          <p class="text-three">BCA Stu. / Web Designer</p>
-          <p class="text-four">From India</p>
-          <button class="button scale cursor"><a href="">Hire Me</a></button>
+      <div class="skill-bottom-right-container">
+        <div class="skill-bottom-right skill-bottom-right-common">
+          <!-- <p class="skill-bottom-right-top">Figma</p> -->
+          <p class="skill-bottom-right-bottom">Coding</p>
+        </div>
+        <div class="skill-bottom-right skill-bottom-right-common">
+          <!-- <p class="skill-bottom-right-top">CSS</p> -->
+          <p class="skill-bottom-right-bottom">Figma</p>
+        </div>
+        <div class="skill-bottom-right skill-bottom-right-common">
+          <!-- <p class="skill-bottom-right-top">JavaScript</p> -->
+          <p class="skill-bottom-right-bottom">Adobe PS,Xd</p>
+        </div>
+        <div class="skill-bottom-right skill-bottom-right-common">
+          <!-- <p class="skill-bottom-right-top">C++</p> -->
+          <p class="skill-bottom-right-bottom">Canva</p>
         </div>
       </div>
-      <div class="home-right"><img src="introimage1.png" alt=""></div>
-    </section>
-    <section class="about-section" id="About">
-      <p class="primary-heading">About Me</p>
-      <p class="secondry-top">Designing Is My Passion</p>
-      <p class="contact-middle"> Hello! I am a passionate BCA student enrolled at Gaur Brahman Degree College in Rohtak,
-        Haryana. Alongside
-        my
-        academic pursuits, I actively delve into the realm of frontend development, where I craft engaging and
-        dynamic
-        user interfaces. My aspiration is to evolve into a proficient full-stack developer, adept at both frontend
-        and
-        backend technologies.</p>
-      <div class="Cv-box">
-        <button class="button scale cursor">
-          <a href="image/Interview_resume.pdf" target="_blank">Live Resume</a>
-        </button>
-        <button class="button scale cursor">
-          <a href="image/UI Design.pdf" download="Gulshan_kalra_CV">Download CV</a>
-        </button>
-      </div>
-    </section>
-    <section class="skill-section" id="Skills">
-      <p class="primary-heading">My Skills</p>
-      <div class="skill-bottom">
-        <div class="skill-bottom-left-container">
-          <p class="skill-bottom-left-one">skills Reflects Our Knowledge</p>
-          <p class="skill-bottom-left-two">
-            As a frontend developer, our skills are grounded in a deep understanding of user interface design, web
-            technologies, and client-side scripting languages. We excel in crafting visually appealing and responsive
-            websites and web applications that prioritize user experience.</p>
-          <div class="skill-bottom-left-three">
-            <p class="bottom-left-three-left">01</p>
-            <p class="bottom-left-three-right">Years Of
-              Experience</p>
-          </div>
-        </div>
-        <div class="skill-bottom-right-container">
-          <div class="skill-bottom-right skill-bottom-right-common">
-            <p class="skill-bottom-right-top">HTML</p>
-            <p class="skill-bottom-right-bottom">80%</p>
-          </div>
-          <div class="skill-bottom-right skill-bottom-right-common">
-            <p class="skill-bottom-right-top">CSS</p>
-            <p class="skill-bottom-right-bottom">70%</p>
-          </div>
-          <div class="skill-bottom-right skill-bottom-right-common">
-            <p class="skill-bottom-right-top">JavaScript</p>
-            <p class="skill-bottom-right-bottom">50%</p>
-          </div>
-          <div class="skill-bottom-right skill-bottom-right-common">
-            <p class="skill-bottom-right-top">C++</p>
-            <p class="skill-bottom-right-bottom">65%</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="services-section" id="Projects">
-      <p class="primary-heading">MY Projects</p>
-      <div class="services-bottom-card-container">
-        <div class="services-bottom-card scale cursor">
-          <img src="image/pro_portfolio_bg.jpg" alt="">
-          <div class="services-bottom-card-three">
-            <p class="services-bottom-card-two hover-effect">My Portfolio</p>
-            <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et
-              repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect project_button_box">
-              <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
-              <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
-            </div>
-          </div>
-        </div>
-        <div class="services-bottom-card scale cursor">
-          <img src="image/pro_vscode_bg.jpeg" alt="">
-          <div class="services-bottom-card-three">
-            <p class="services-bottom-card-two hover-effect">Vscode</p>
-            <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et
-              repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect project_button_box">
-              <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
-              <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
-            </div>
-          </div>
-        </div>
-        <div class="services-bottom-card scale cursor">
-          <img src="image/pro_amazon_bg.jpeg" alt="">
-          <div class="services-bottom-card-three">
-            <p class="services-bottom-card-two hover-effect">Amazon</p>
-            <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et
-              repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect project_button_box">
-              <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
-              <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
-            </div>
-          </div>
-        </div>
-        <div class="services-bottom-card scale cursor">
-          <img src="image/pro_apple_bg.jpeg" alt="">
-          <div class="services-bottom-card-three">
-            <p class="services-bottom-card-two hover-effect">Apple</p>
-            <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et
-              repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect project_button_box">
-              <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
-              <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
-            </div>
-          </div>
-        </div>
-        <div class="services-bottom-card scale cursor">
-          <img src="image/pro_udemy_bg.jpg" alt="">
-          <div class="services-bottom-card-three">
-            <p class="services-bottom-card-two hover-effect">Udemy</p>
-            <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et
-              repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect project_button_box">
-              <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
-              <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
-            </div>
-          </div>
-        </div>
-        <div class="services-bottom-card scale cursor">
-          <img src="image/pro_soon_bg.jpeg" alt="">
-          <div class="services-bottom-card-three">
-            <p class="services-bottom-card-two hover-effect">soon</p>
-            <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et
-              repudiandae amet animi magnam, iusto</p>
-            <div class="hover-effect project_button_box">
-              <button class="button scale cursor"><a href="" target="_blank">Get Code</a></button>
-              <button class="button scale cursor"><a href="" target="_blank">Run Live</a></button>
-            </div>
+    </div>
+  </section>
+  <section class="services-section" id="Projects">
+    <p class="primary-heading">MY Projects</p>
+    <div class="services-bottom-card-container">
+      <div class="services-bottom-card scale cursor">
+        <img src="image/pro_portfolio_bg.jpg" alt="">
+        <div class="services-bottom-card-three">
+          <p class="services-bottom-card-two hover-effect">My Portfolio</p>
+          <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Et
+            repudiandae amet animi magnam, iusto</p>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href="https://github.com/Gulshan-kalra07/Portfolio"
+                target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href="https://gulshan-kalra07.github.io/Portfolio/"
+                target="_blank">Run Live</a></button>
           </div>
         </div>
       </div>
-    </section>
-    <section class="contact-section" id="Contact">
-      <p class="primary-heading">Contact Me</p>
-      <p class="secondry-top">Have Any Project?</p>
-      <p class="contact-middle">Greetings! I’ve been self-taught in Web development for 1 years. HTML, CSS, and
-        JavaScript are my playground.Hey there! I’m a fresh BCA graduate. I specialize in web development because I
-        believe every business needs a strong online presence. I love coding beautiful websites. Let’s connect!</p>
-      <button class="button contact-bottom scale cursor"><a href="SMS:+91720-650-4056" target="_blank">Let's
-          Chat</a></button>
-    </section>
-    <footer class="footer">
-      <a>Created By Gulshan kalra | © 2023 All Rights Reserved</a>
-    </footer>
+      <div class="services-bottom-card scale cursor">
+        <img src="image/pro_Etech.png" alt="">
+        <div class="services-bottom-card-three">
+          <p class="services-bottom-card-two hover-effect">Etech</p>
+          <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Et
+            repudiandae amet animi magnam, iusto</p>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a
+                href="https://www.figma.com/design/Otot4VvOFMQBjKKOklX5CK/E-learning-Website?node-id=0-1&t=qItkU58D4i7xNYsV-1"
+                target="_blank">Get UI</a></button>
+            <button class="button scale cursor"><a
+                href="https://www.figma.com/proto/Otot4VvOFMQBjKKOklX5CK/E-learning-Website?node-id=1-2&t=ew1Ga2H95r12BlKn-1"
+                target="_blank">Run Live</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="services-bottom-card scale cursor">
+        <img src="image/pro_logo.jpeg" alt="">
+        <div class="services-bottom-card-three">
+          <p class="services-bottom-card-two hover-effect">RoyalStep</p>
+          <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Et
+            repudiandae amet animi magnam, iusto</p>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href="https://github.com/Gulshan-kalra07/RoyalStep_footwear"
+                target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href="https://gulshan-kalra07.github.io/RoyalStep_footwear/"
+                target="_blank">Run Live</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="services-bottom-card scale cursor">
+        <img src="image/pro_Fbuild.png" alt="">
+        <div class="services-bottom-card-three">
+          <p class="services-bottom-card-two hover-effect">FBuild</p>
+          <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Et
+            repudiandae amet animi magnam, iusto</p>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a
+                href="https://www.figma.com/design/FErMZgoFKdIe9BpZwiu48S/Real-Estate-Website-UI?t=qItkU58D4i7xNYsV-1"
+                target="_blank">Get UI</a></button>
+            <button class="button scale cursor"><a
+                href="https://www.figma.com/proto/FErMZgoFKdIe9BpZwiu48S/Real-Estate-Website-UI?t=FN0R1D81X5PU7L5Y-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2"
+                target="_blank">Run Live</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="services-bottom-card scale cursor">
+        <img src="image/pro_vscode_bg.jpeg" alt="">
+        <div class="services-bottom-card-three">
+          <p class="services-bottom-card-two hover-effect">Vscode</p>
+          <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Et
+            repudiandae amet animi magnam, iusto</p>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a href="https://github.com/Gulshan-kalra07/Vscode_clone-R-"
+                target="_blank">Get Code</a></button>
+            <button class="button scale cursor"><a href="https://gulshan-kalra07.github.io/Vscode_clone-R-/"
+                target="_blank">Run Live</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="services-bottom-card scale cursor">
+        <img src="image/pro_music_stream.png" alt="">
+        <div class="services-bottom-card-three">
+          <p class="services-bottom-card-two hover-effect">soon</p>
+          <p class="services-bottom-card-para hover-effect">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Et
+            repudiandae amet animi magnam, iusto</p>
+          <div class="hover-effect project_button_box">
+            <button class="button scale cursor"><a
+                href="https://www.figma.com/design/jVwa66FJXDhoNc80x13NUP/Music-Streaming-App?node-id=0-1&t=kSewf0drQiGgezK8-1"
+                target="_blank">Get UI</a></button>
+            <button class="button scale cursor"><a
+                href="https://www.figma.com/proto/jVwa66FJXDhoNc80x13NUP/Music-Streaming-App?node-id=1-2&starting-point-node-id=1%3A2&t=0cIOoikUKk4x2kLf-1"
+                target="_blank">Run Live</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section" id="Contact">
+    <p class="primary-heading">Contact Me</p>
+    <p class="secondry-top">Have Any Project?</p>
+    <p class="contact-middle">Greetings! I’ve been self-taught in Web development.Figma, Adobe Xd, Adobe PhotoShop,Canva, HTML, CSS, and
+      JavaScript are my playground.Hey there! I’m a fresh MCA Post-Graduate. I specialize in web development because I
+      believe every business needs a strong online presence. I love coding  and Designing beautiful websites. Let’s connect!</p>
+    <button class="button contact-bottom scale cursor"><a href="SMS:+91720-650-4056" target="_blank">Let's
+        Chat</a></button>
+  </section>
+  <footer class="footer">
+    <a>Created By Gulshan kalra | © 2023 All Rights Reserved</a>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 
 </html>
