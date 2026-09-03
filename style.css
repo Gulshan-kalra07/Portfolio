@@ -30,7 +30,7 @@
 .button {
     width:fit-content;
     height: 44px;
-    margin: 8px 2px;
+    margin: 8px auto;
     padding: 6px 15px;
     background-color: var(--main_color);
     border: 2px solid var(--main_color);
@@ -41,6 +41,10 @@
 
 .button a {
     color: white;
+}
+
+.button a i {
+         padding-right: 5px;
 }
 
 .button:hover {
